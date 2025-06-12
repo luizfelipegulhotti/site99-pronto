@@ -1,5 +1,3 @@
-
-
 <?php include 'includes/header.php'; ?>
 
 <!-- CSS específico para agendamento -->
