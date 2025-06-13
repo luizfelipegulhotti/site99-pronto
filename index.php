@@ -7,7 +7,7 @@ include 'includes/header.php';
 <section class="hero">
     <div class="hero-content">
         <div class="hero-text">
-            <h1 class="subtitle">Paróquia Santo Estêvão</h1>
+            <h1 class="subtitle">Paróquia Santo Antonio</h1>
             <h2>Bem vindo ao Site</h2>
             <p>Aqui você pode ver eventos, horários, e marcar reuniões com padres.</p>
             <div class="buttons">
