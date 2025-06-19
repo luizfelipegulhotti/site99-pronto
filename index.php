@@ -60,7 +60,7 @@ include 'includes/header.php';
     <div class="row">
         <div class="col-12 col-md-6 mb-4">
             <h2>Seu título</h2>
-            <img src="img/download (13).jfif" class="img-fluid" alt="Imagem 1">
+            <img src="img/demon.jpg" class="img-fluid" alt="Imagem 1">
             <p>Mais texto caso queira. Isso é só um esboço do esqueleto do site. Você vai vendo e avaliando o que acha.</p>
         </div>
         <div class="col-12 col-md-6 mb-4">
