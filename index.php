@@ -22,7 +22,7 @@ include 'includes/header.php';
 </section>
 
 <div class="cards">
-<div data-aos="fade-up">
+>
     <div class="card">
         <a a href="agendamente.php" <?php echo (isset($_GET['page']) && $_GET['page'] == 'agendamento') ? 'class="active"' : ''; ?>>
             <i class="ri-map-pin-line"></i>
@@ -30,7 +30,7 @@ include 'includes/header.php';
         </a>
     
     </div>
-</div>
+
 
     <div class="card">
         <a href="?page=horarios">
@@ -52,14 +52,16 @@ include 'includes/header.php';
     </div>
 </div>
 
+<div data-aos="fade-up">
 <div class="sobre">
     <h2 class="sobre">Sobre Nós</h2>
     <hr>
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita doloribus rem corrupti quasi itaque et tenetur
         quam maxime pariatur, eius architecto id libero culpa illum quidem suscipit. Saepe, nisi at.</p>
 </div>
-
+</div>
 <!-- grid -->
+<div data-aos="fade-up">
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-6 mb-4">
@@ -76,12 +78,12 @@ include 'includes/header.php';
     </div>
 </div>
 
-
-
+</div>
+<div data-aos="fade-up">
 <div class="bg-fixed">
     <p>Mateus 6:34: "Não vos inquieteis, pois, pelo dia de amanhã; porque o dia de amanhã cuidará de si mesmo. Basta a cada dia o seu mal."</p>
 </div>
-
+</div>
 
 <h2 class="nossa">Nossa equipe</h2>
 <hr>
@@ -206,9 +208,9 @@ include 'includes/header.php';
         }
     });
 </script>
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
 </script>
-
 <?php include 'includes/footer.php'; ?>
