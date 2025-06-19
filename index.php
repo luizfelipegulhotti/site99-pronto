@@ -3,7 +3,7 @@ $page_title = "Secretaria da Igreja";
 $current_page = "home";
 include 'includes/header.php';
 ?>
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <section class="hero">
     <div class="hero-content">
         <div class="hero-text">
@@ -22,12 +22,16 @@ include 'includes/header.php';
 </section>
 
 <div class="cards">
+<div data-aos="fade-up">
     <div class="card">
         <a a href="agendamente.php" <?php echo (isset($_GET['page']) && $_GET['page'] == 'agendamento') ? 'class="active"' : ''; ?>>
             <i class="ri-map-pin-line"></i>
             <h3>agendamento</h3>
         </a>
+    
     </div>
+</div>
+
     <div class="card">
         <a href="?page=horarios">
             <i class="bi bi-clock"></i>
@@ -201,6 +205,10 @@ include 'includes/header.php';
             }
         }
     });
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
 </script>
 
 <?php include 'includes/footer.php'; ?>
